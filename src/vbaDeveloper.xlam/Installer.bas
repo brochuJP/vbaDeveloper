@@ -1,10 +1,10 @@
 Attribute VB_Name = "Installer"
 
 '1) Create an Excel file called Installer.xlsm in the folder:
-'   *\GIT\vbaDeveloper-master\srcvbaDeveloper.xlam\
+'   *\GIT\vbaDeveloper-master\src\vbaDeveloper.xlam\
 
 '2) Open the VB Editor (Alt+F11) right click on the active project and choose Import a file and chose:
-'    *\GIT\vbaDeveloper-master\srcvbaDeveloper.xlam\Installer.bas
+'    *\GIT\vbaDeveloper-master\src\vbaDeveloper.xlam\Installer.bas
 
 '3a) Go in Tools--> References and activate:
 '   - Microsoft Scripting Runtime
@@ -16,9 +16,9 @@ Attribute VB_Name = "Installer"
 
 '4) Run the Sub AutoInstaller in the module Installer
 
-'5) Crate a new excel file and also open the file vbaDeveloper.xlam located in the folder: *\GIT\vbaDeveloper-master\
+'5) Create a new excel file and also open the file vbaDeveloper.xlam located in the folder: *\GIT\vbaDeveloper-master\
 
-'6) Make step 3a and 3b again for this file and run the sub testImport located in the modul "Build".
+'6) Make step 3a and 3b again for this file and run the sub testImport located in the module "Build".
 
 Sub AutoInstaller()
 
